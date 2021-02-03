@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { getPostgresClient } = require("./postgres.js");
 const express = require("express");
 const morgan = require("morgan");
